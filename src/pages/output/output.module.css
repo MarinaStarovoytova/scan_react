@@ -1,0 +1,235 @@
+.page__output {
+    margin-bottom: 109px;
+}
+
+.output__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    font-family: 'Ferry Black';
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 36px;
+}
+
+.text {
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    max-width: 447px;
+}
+
+.heading__carousel {
+    font-family: 'Ferry Black';
+    font-size: 30px;
+    letter-spacing: 0.6px;
+}
+
+.text__result {
+    color: #949494;
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    margin-top: 17px;
+    margin-bottom: 27px;
+}
+
+.carousel__content {
+    border-radius: 10px 0px 0px 10px;
+    background: #029491;
+    width: 131px;
+    padding: 28px 17px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.carousel__block {
+    display: flex;
+}
+
+.carousel__text {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.block__info {
+    padding: 28px 17px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    border: 2px solid #029491;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.text__info {
+    font-size: 18px;
+    letter-spacing: 0.36px;
+}
+
+.border__right {
+    border-right: 2px solid rgb(148, 148, 148, 1);
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+
+.block {
+    display: grid;
+    grid-template-columns: 131px;
+    grid-template-rows: 130px;
+}
+
+.heading__doc {
+    color: #000;
+    font-family: 'Ferry Black';
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    margin-top: 107px;
+    margin-bottom: 58px;
+}
+
+.documents__content {
+    display: grid;
+    grid-template-columns: repeat(2, 641px);
+    grid-template-rows: repeat(1, auto);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.column {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+    padding: 19px 30px;
+}
+
+.content__flex {
+    display: flex;
+}
+
+.data__doc {
+    color: #949494;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    margin-right: 14px;
+}
+
+.text__doc {
+    color: #949494;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
+}
+
+.heading__column {
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 0.52px;
+    margin-top: 24px;
+    margin-bottom: 18px;
+    max-width: 540px;
+}
+
+.block__border {
+    padding: 4px 14px;
+    border-radius: 5px;
+    background: #FFB64F;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+.text__news {
+    margin-top: 20px;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    opacity: 0.5;
+}
+
+.button__source {
+    padding: 14px 33px;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    border-radius: 5px;
+    background: #7CE3E1;
+    margin-top: 32px;
+    color: #000;
+}
+
+.counter {
+    color: #949494;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    text-align: right;
+}
+
+.button__more {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.88px;
+    padding: 16px 53px;
+    border-radius: 5px;
+    background: #5970FF;
+    display: block;
+    margin: 38px auto;
+}
+
+@media (min-width: 375px) and (max-width:500px)  {
+    .output__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading {
+        font-size: 28px;
+        margin-bottom: 21px;
+        max-width: 370px;
+    }
+
+    .text {
+        font-size: 18px;
+        max-width: 447px;
+        margin-bottom: 27px;
+    }
+
+    .heading__carousel {
+        font-size: 28px;
+        margin-top: 59px;
+    }
+
+    .heading__doc {
+        font-size: 28px;
+        margin-top: 57px;
+        margin-bottom: 34px;
+    }
+
+    .documents__content {
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+    }
+
+    .heading__column {
+        font-size: 19px;
+        margin-top: 21px;
+        margin-bottom: 24px;
+    }
+
+    .block__info {
+        width: 200px;
+    }
+
+    .carousel__block {
+        justify-content: center;
+    }
+
+    .button__more {
+        width: 100%;
+    }
+
+}
